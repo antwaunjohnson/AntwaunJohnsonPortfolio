@@ -1,4 +1,5 @@
 class Portfolio < ApplicationRecord
+  include Placeholder
   validates_presence_of :title,:body, :main_image, :thumb_image
 
   def self.html5css3
@@ -10,7 +11,7 @@ class Portfolio < ApplicationRecord
   after_initialize :set_defaults
 
   def set_defaults
-    self.main_image ||= "http://placehold.jp/600x400.png"
-    self.thumb_image ||= "http://placehold.jp/350x200.png"
+    self.main_image ||= Placeholder.image_generator(height: '600', width: '400')
+    self.thumb_image ||= Placeholder.image_generator(height: '350', width: '200')
   end
 end
