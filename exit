@@ -1,0 +1,45 @@
+[33mcommit d1ef6a580ff339020ce8b44eb431cb7580084eb9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: fd9b1ff a4fbf68
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Tue Nov 27 11:48:42 2018 -0700
+
+    Merge branch 'master' of https://github.com/antwaunjohnson/devcamp-portfolio
+
+[33mcommit fd9b1fff2e14ea85d91b8d2f94c67bf201b180f2[m[33m ([m[1;32mresource-generator[m[33m)[m
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Tue Nov 27 11:44:57 2018 -0700
+
+    Added portfolio items via Resource generator
+
+[33mcommit 22d0317fb3d62cdcc47504649f95048478791f06[m[33m ([m[1;32mmodel-generator[m[33m)[m
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Tue Nov 27 11:13:54 2018 -0700
+
+    Integrated skills via model generator
+
+[33mcommit a4fbf682f3f8292fe8ed02cf8cf514dd3adc5fb1[m
+Merge: a5ddefc b5fc5b5
+Author: antwaunjohnson <36043929+antwaunjohnson@users.noreply.github.com>
+Date:   Tue Nov 27 09:59:32 2018 -0700
+
+    Merge pull request #1 from antwaunjohnson/controller-generator
+    
+    Built pages for with controller generator
+
+[33mcommit b5fc5b5f65614ae40484adb88400241b38d53bdf[m[33m ([m[1;31morigin/controller-generator[m[33m, [m[1;32mcontroller-generator[m[33m)[m
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Tue Nov 27 09:56:00 2018 -0700
+
+    Built pages for with controller generator
+
+[33mcommit a5ddefccb330a983c76ab8559a26dfbbb33d3484[m
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Mon Nov 26 15:26:42 2018 -0700
+
+    Updated Readme
+
+[33mcommit a0503048f613525c41751175e1a61a246e0b16e6[m
+Author: antwaunjohnson <antwaun.l.johnson@gmail.com>
+Date:   Mon Nov 26 15:20:31 2018 -0700
+
+    Initial commit
