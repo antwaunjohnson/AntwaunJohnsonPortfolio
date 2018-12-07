@@ -62,3 +62,5 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1.3'
 
 gem 'jquery-rails'
+
+gem 'aj_view_tool', git: 'https://github.com/antwaunjohnson/aj_view_tool.git'

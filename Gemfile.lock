@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/antwaunjohnson/aj_view_tool.git
+  revision: 1cfe211ab36eef27bd6549b93d881d32418e9deb
+  specs:
+    aj_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -201,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aj_view_tool!
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1.3)
   byebug

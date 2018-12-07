@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting" )
     end
   end
+
+  def copyright_generator
+    AjViewTool::Render.copyright 'Antwaun Johnson', 'All rights reserved'
+  end
 end
