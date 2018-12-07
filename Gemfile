@@ -63,4 +63,4 @@ gem 'bootstrap', '~> 4.1.3'
 
 gem 'jquery-rails'
 
-gem 'aj_view_tool', git: 'https://github.com/antwaunjohnson/aj_view_tool.git'
+gem 'aj_view_tool', '~> 0.1.0'
