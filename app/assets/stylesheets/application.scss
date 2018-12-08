@@ -41,7 +41,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 55em;
 }
 
 
@@ -62,7 +62,7 @@ body {
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
-}
+  }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
@@ -81,7 +81,7 @@ body {
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
-  }
+      }
   .nav-masthead {
     float: right;
   }
