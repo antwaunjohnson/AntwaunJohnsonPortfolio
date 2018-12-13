@@ -5,8 +5,9 @@
       <p class="card-text"><span><%=link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></span> <%=portfolio_item.subtitle %></p>
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
-          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          <%= link_to 'View', portfolio_show_path(portfolio_item), class: 'btn btn-sm btn-outline-success' %>
+          
+          <!-- <button type="button" class="btn btn-sm btn-secondary">Edit</button> -->
         </div>
         <small class="text-muted">9 mins</small>
       </div>
