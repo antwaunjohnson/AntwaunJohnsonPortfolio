@@ -54,7 +54,7 @@ end
 def destroy
   @portfolio_item.destroy
   respond_to do |format|
-    format.html { redirect_to portfolis_url, notice: 'Record was obliterated!' }
+    format.html { redirect_to portfolios_url, notice: 'Record was obliterated!' }
   end
 end
 
@@ -64,6 +64,8 @@ def portfolio_params
     params.require(:portfolio).permit(:title,
                                    :subtitle,
                                    :body,
+                                   :main_image,
+                                   :thumb_image,
                                    technologies_attributes: [:name]
                                    )
 
