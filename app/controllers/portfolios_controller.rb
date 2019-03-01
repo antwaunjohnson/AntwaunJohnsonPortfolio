@@ -15,7 +15,7 @@ class PortfoliosController < ApplicationController
       Portfolio.find(value[:id]).update(position: value[:position])
     end
 
-    render body: nil
+    render nothing: true
   end
 
   def new
