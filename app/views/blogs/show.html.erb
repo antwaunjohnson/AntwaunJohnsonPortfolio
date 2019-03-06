@@ -6,11 +6,10 @@
     <%= @blog.body %>
   </p>
 
-  <!--star of comment form-->
   <%= render 'comments/comment_form' %>
-  <!--star of comment form-->
-  
-  <!--star of comments-->
-  <!--star of comments-->
-  
+
+  <div class="comments" data-blog-id="<%= @blog.id %>">
+    <%= render @blog.comments %>
+  </div>
+
 </div>
