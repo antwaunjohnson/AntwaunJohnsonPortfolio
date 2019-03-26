@@ -4,7 +4,12 @@
 
       <div class="col-12 text-center">
         <h1>My Blog</h1>
-        <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
+        <span>
+          <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
+        </span>
+        <span>
+          <%= link_to "Topics", topics_path %>
+        </span>
       </div>
       </div>
   </header>
