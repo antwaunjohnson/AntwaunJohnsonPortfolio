@@ -1,14 +1,121 @@
-<h1>About Me</h1>
+<div class="app-card-container">
+  <div class="card">
 
-<hr>
+      <h1>About Me</h1>
+      
+      <hr>
+      
+      <div class="row">
+        <div class="col-md-4">
+            <%= image_tag "profile.jpg", width: 200, alt: "profile image" %>
+            
+        <div class="skills">
+          <% @skills.each do |skill| %>
+            <div class="skill">
+              <h4><%= skill.title %></h4>
+                <div class="progress">
+                  <div 
+                    class="progress-bar progress-bar-striped bg-success"
+                    role="progressbar"
+                    aria-valuenow="<%= skill.percent_utilized %>"
+                    aria-valuemax="100"
+                    style="width: <%= skill.percent_utilized %>%"
+                  >
+                    
+                  </div>
+                </div>
+            </div>
+            
+          <% end %>
+        </div>
+        
+        </div>
+        
+        
+        <div class="col-md-8">
+          <p>Soufflé tart cake biscuit muffin. Tart marshmallow apple pie oat cake wafer jelly beans gingerbread cake cupcake. Chocolate bar chocolate jelly pudding cheesecake lemon drops bear claw. Oat cake cake sugar plum sesame snaps lollipop jujubes candy sweet jelly-o. Cake pie gummi bears halvah jelly beans tart jelly donut. Sweet candy chocolate gummi bears sweet roll biscuit gummies. Pudding dessert cake marshmallow cupcake cheesecake jelly-o muffin.</p>
+          
+          <p>Ice cream biscuit cotton candy fruitcake cake sweet roll tart macaroon jelly beans. Ice cream chocolate cake liquorice cake. Sesame snaps gummi bears chocolate bar cake tiramisu bonbon muffin tiramisu. Biscuit candy canes carrot cake powder cake sugar plum. Jelly sugar plum cookie apple pie gingerbread bonbon danish. Gingerbread croissant sweet chupa chups.</p>
+          
+          <p>
+            <button class="btn btn-success" 
+                      type="button" 
+                      data-toggle="collapse" 
+                      data-target="#jobHistory" 
+                      aria-expanded="false" 
+                      aria-controls="jobHistory"
+            >
+              Job History
+            </button>
+          </p>
+          <p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="jobHistory">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse" id="jobHistory">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="jobHistory">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse" id="jobHistory">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
+           <p>
+              <button class="btn btn-success" 
+                      type="button" 
+                      data-toggle="collapse" 
+                      data-target="#education" 
+                      aria-expanded="false" 
+                      aria-controls="education"
+              >
+                Education
+              </button>
+          </p>
+          <p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse" id="education">
+                  <div class="card card-body">
+                    School 1
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse" id="education">
+                  <div class="card card-body">
+                    School 2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
 
-<div class="row">
-  <div class="col-md-4">
-      <%= image_tag "profile.jpg", width: 200, alt: "profile image" %>
-  </div>
-  <div class="col-md-8">
-    <p>
-      After spending more than a decade in the customer service industry, it is time for a change. Web development allows me to combine my passions for people, technology, and learning. It provides an opportunity to solve problems from a variety of angles. My experience allows me to bring a more collaborative approach to web development. Where the focus will be on making sure the project is properly aligning with the clients goals.
-    </p>
+        </div>
+      </div>
+      
   </div>
 </div>

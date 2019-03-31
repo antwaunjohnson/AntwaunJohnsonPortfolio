@@ -26,10 +26,14 @@ a:hover {
 /*
  * Base structure
  */
+ 
+
+
 
 html,
 body {
   height: 100%;
+  font-family: 'Montserrat', sans-serif;  
 }
 
 body {
@@ -38,6 +42,15 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Heebo', sans-serif;
 }
 
 .cover-container {
@@ -165,4 +178,22 @@ body {
 
 .tech-news > .card {
   padding: 30px;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

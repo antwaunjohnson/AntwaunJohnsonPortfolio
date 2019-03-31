@@ -7,6 +7,9 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat" rel="stylesheet">
+
 
     <meta name="keywords" content= "<%= @seo_keywords %>" />
 
@@ -31,8 +34,6 @@
       </div>
 
       <%= render 'shared/blog_footer' %>
-
-          <%= source_helper("blog") %>
 
       <%= alerts %>
 
