@@ -15,9 +15,9 @@
               <h4><%= skill.title %></h4>
                 <div class="progress">
                   <div 
-                    class="progress-bar progress-bar-striped bg-success"
+                    class="progress-bar progress-bar-striped bg-secondary"
                     role="progressbar"
-                    aria-valuenow="<%= skill.percent_utilized %>"
+                    aria-valuenow="<%= skill.percent_utilized.inspect %>"
                     aria-valuemax="100"
                     style="width: <%= skill.percent_utilized %>%"
                   >
@@ -33,12 +33,12 @@
         
         
         <div class="col-md-8">
-          <p>For over 10 years I have served companies in various roles from sales to customer service. These roles have allowed me to solve challenging problems that affect the lives of others on various levels. It is this experience that allows me to bring a more personal approach to the the development process. While I may thrive in a solo environment, I cherish the opportunity to share ideas and collaborate with a team.</p>
+          <p>For over 15 years I have served companies in various roles from sales to customer service. These roles have allowed me to solve challenging problems that affect the lives of others on various levels. It is this experience that allows me to bring a more personal approach to the the development process. While I may thrive in a solo environment, I cherish the opportunity to share ideas and collaborate with a team.</p>
           
           <p>I truely enjoy the time I get to spend with my wife and three daughters. Sometimes we may even put our different devices down to actually talk to each other.</p>
           
          <%= render 'about_buttons' %>
-         <%= render 'about_job_history' %>
+         <%= render 'about_my_experience' %>
          <%= render 'about_education' %>
 
         </div>
