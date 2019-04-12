@@ -8,18 +8,23 @@
 /* Links */
 a,
 a:focus,
-a:hover {
-  color: #000;
+a:hover,
+.nav-link {
+  color: #000
 }
 
 /* Custom default button */
 .btn-secondary,
-.btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #28a745;
 }
 
 
@@ -72,14 +77,15 @@ h6, .h6 {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: #fff;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
   }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: #28a745;
+  color: #28a745;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -87,8 +93,8 @@ h6, .h6 {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #28a745;
+  border-bottom-color: #28a745;
 }
 
 @media (min-width: 48em) {
@@ -159,7 +165,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('harddrive.jpg') no-repeat;
+  background: image-url('codingvid.mp4') no-repeat;
   background-size: cover;
 }
 
@@ -182,12 +188,15 @@ h6, .h6 {
 }
 
 .app-card-container {
-  color: black;
-  text-align: left;
+  color: #2f4f4f;
+  text-align: center;
+  
 }
 
 .app-card-container > .card {
+  margin-top: 20px;
   padding: 40px;
+  align-items: center;
 }
 
 .app-card-container a {
@@ -199,7 +208,14 @@ h6, .h6 {
   margin-bottom: 10px;
 }
 
-
-
+#contactForm {
+  border-color: #2f4f4f;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  text-align: center;
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
 
 

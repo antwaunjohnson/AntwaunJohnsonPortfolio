@@ -15,7 +15,7 @@
               <h4><%= skill.title %></h4>
                 <div class="progress">
                   <div 
-                    class="progress-bar progress-bar-striped bg-secondary"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                     role="progressbar"
                     aria-valuenow="<%= skill.percent_utilized.inspect %>"
                     aria-valuemax="100"
@@ -38,8 +38,7 @@
           <p>I truely enjoy the time I get to spend with my wife and three daughters. Sometimes we may even put our different devices down to actually talk to each other.</p>
           
          <%= render 'about_buttons' %>
-         <%= render 'about_my_experience' %>
-         <%= render 'about_education' %>
+         <%= render 'about_courses' %>
 
         </div>
       </div>
