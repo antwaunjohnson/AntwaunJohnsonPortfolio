@@ -9,7 +9,7 @@
 
   <div class="blog-sidebar">
     <h4>Topics</h4>
-    <% @set_sidebar_topics.each do |topic| %>
+    <% @side_bar_topics.each do |topic| %>
       <p><%= link_to topic.title, topic_path(topic) %></p>
     <% end %>
   </div>

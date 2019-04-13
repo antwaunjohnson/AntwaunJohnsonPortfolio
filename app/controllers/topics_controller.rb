@@ -19,6 +19,6 @@ class TopicsController < ApplicationController
   private
   
   def set_sidebar_topics
-    @set_sidebar_topics = Topic.with_blogs
+    @side_bar_topics = Topic.with_blogs
   end
 end
