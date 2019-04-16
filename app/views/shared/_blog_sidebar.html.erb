@@ -7,14 +7,14 @@
 
     <%= source_helper("alert alert-info blog-sidebar-source") %>
   
-    <% if @side_bar_topics %>  
-      <div class="blog-sidebar">
+    <!--<% if @side_bar_topics %>  -->
+      <div class="p-3">
         <h4>Topics</h4>
         <% @side_bar_topics.each do |topic| %>
           <p><%= link_to topic.title, topic_path(topic) %></p>
         <% end %>
       </div>
-    <% end %>
+    <!--<% end %>-->
   
 
   <div class="p-3">
