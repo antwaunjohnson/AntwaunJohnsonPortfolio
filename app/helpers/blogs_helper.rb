@@ -28,6 +28,5 @@ module BlogsHelper
     'color: red;' if blog.draft?
   end
   
-  
 end
 
