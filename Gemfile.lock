@@ -42,7 +42,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     aj_view_tool (0.1.0)
     arel (9.0.0)
@@ -177,9 +177,7 @@ GEM
     multipart-post (2.1.1)
     naught (1.1.0)
     nio4r (2.5.4)
-
     nokogiri (1.11.5)
-
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
